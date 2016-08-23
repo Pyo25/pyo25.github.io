@@ -14,18 +14,26 @@
             body {
                 display: -webkit-flex;
                 display: flex;
-                -webkit-flex-direction: row /* works with row or column */
-                flex-direction: row;
+                -webkit-flex-direction: column; /* works with row or column */
+                flex-direction: column;
                 -webkit-align-items: center;
                 align-items: center;
                 -webkit-justify-content: center;
                 justify-content: center;
+            }
+            .profile-picture {
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                border-radius: 100%;
+                border: 3px solid #124559;
+                width:150px;
             }
 		</style>
 	</head>
 
 	<body>
 		<h1>admm.io</h1>
+        <img src="assets/images/dog.jpg" alt="Mousetree" class="profile-picture">
 	</body>
 
     <script>
