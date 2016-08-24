@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>admm.io</title>
+		<title>pyo.be</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<style>
             body { 
@@ -12,7 +12,6 @@
             }
             h1 { 
                 font-size: 64px;
-                visibility: hidden;
             }
             body {
                 display: -webkit-flex;
@@ -30,7 +29,6 @@
                 border-radius: 100%;
                 border: 3px solid #124559;
                 width:150px;
-                visibility: hidden;
             }
 		</style>
 
@@ -38,25 +36,18 @@
 	</head>
 
 	<body>
-		<h1 id="title"></h1>
+		<h1>pyo.be</h1>
         <img src="assets/images/dog.jpg" alt="this is a dog" class="profile-picture">
 	</body>
 
     <script>
-        var hostname = window.location.hostname;
-        document.getElementById('title').innerHTML = hostname;
-        document.getElementById('title').style.visibility = 'visible';
-        document.getElementsByClassName('profile-picture')[0].style.visibility = 'visible';
-    </script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-82780619-1', 'auto');
-      ga('send', 'pageview');
+    ga('create', 'UA-83071312-1', 'auto');
+    ga('send', 'pageview');
 
     </script>
 </html>
